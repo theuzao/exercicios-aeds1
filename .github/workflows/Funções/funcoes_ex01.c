@@ -17,4 +17,6 @@ int main() {
 	scanf("%s", nomeUsuario); // Lê o nome 
 
 	nomeProcedimento(nomeUsuario); // Chama o procedimento para exibir a mensagem
+
+	return 0;
 }
