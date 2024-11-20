@@ -25,17 +25,10 @@ O objetivo deste repositório é fornecer uma base prática para reforçar o apr
 
 Este repositório é voltado para estudantes de **Engenharia de Software** ou áreas correlatas, que desejam reforçar seus conhecimentos de algoritmos e programação por meio de exercícios práticos.
 
-## Como Usar
-
-1. Clone o repositório para sua máquina:
-   ```bash
-   git clone https://github.com/theuzao/exercicios-c.git
-   cd exercicios-c
-Navegue até a pasta do tema desejado:
-cd exercicios/funcoes
-Compile e execute o arquivo do exercício:
-gcc funcoes_ex01.c -o funcoes_ex01
-./funcoes_ex01
-Contribuições
+## Como executar
+Compile os exercícios usando o GCC:
+```bash
+gcc -o programa nome_do_arquivo.c
+./programa
 
 Este repositório é um espaço pessoal para prática e fixação de conteúdos, mas sugestões e melhorias são sempre bem-vindas.
