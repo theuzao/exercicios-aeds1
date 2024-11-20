@@ -6,7 +6,15 @@ Este repositório contém exercícios realizados como forma de **fixação do co
 
 Os exercícios estão organizados por temas centrais abordados na disciplina:
 
-exercicios/ ├── condicionais/ # Estruturas condicionais (if, else, switch) ├── repeticao/ # Estruturas de repetição (for, while, do-while) ├── vetores/ # Arrays unidimensionais ├── matriz/ # Arrays bidimensionais (matrizes) ├── funcoes/ # Funções em C ├── ponteiros/ # Manipulação de ponteiros ├── recursividade/ # Problemas resolvidos com recursão ├── estruturas_de_dados/ # Pilhas, filas e listas encadeadas
+exercicios/
+├── condicionais/         # Estruturas condicionais (if, else, switch)
+├── repeticao/            # Estruturas de repetição (for, while, do-while)
+├── vetores/              # Arrays unidimensionais
+├── matriz/               # Arrays bidimensionais (matrizes)
+├── funcoes/              # Funções em C
+├── ponteiros/            # Manipulação de ponteiros
+├── recursividade/        # Problemas resolvidos com recursão
+├── estruturas_de_dados/  # Pilhas, filas e listas encadeadas
 
 
 ## Objetivo
@@ -29,6 +37,6 @@ Este repositório é voltado para estudantes de **Engenharia de Software** ou á
 Compile os exercícios usando o GCC:
 ```bash
 gcc -o programa nome_do_arquivo.c
-./programa
+./programa 
 
 Este repositório é um espaço pessoal para prática e fixação de conteúdos, mas sugestões e melhorias são sempre bem-vindas.
