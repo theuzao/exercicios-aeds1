@@ -1,6 +1,6 @@
 # Exercícios de Algoritmos e Estruturas de Dados I (AEDS1)
 
-Este repositório contém exercícios realizados como forma de **fixação do conteúdo aprendido em sala de aula** na disciplina **Algoritmos e Estruturas de Dados I (AEDS1)**, parte do curso de **Engenharia de Software**. O objetivo é consolidar os conceitos fundamentais de programação e estruturas de dados apresentados durante o semestre.
+Este repositório contém exercícios realizados como forma de **fixação do conteúdo aprendido em sala de aula** na disciplina **Algoritmos e Estruturas de Dados I (AEDS1)**,do curso de **Engenharia de Software**. O objetivo é consolidar os conceitos fundamentais de programação e estruturas de dados apresentados durante o semestre.
 
 ## Estrutura do Repositório
 
