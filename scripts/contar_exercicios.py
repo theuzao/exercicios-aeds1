@@ -2,8 +2,14 @@ import os
 
 def contar_exercicios(caminho):
     total_arquivos = 0  # Variável para contar os arquivos
+    extensoes_validas = (".c", ".cpp", ".py", ".java")  # Ajuste as extensões conforme necessário
+    ignorar_arquivos = ["README.md", "contar_exercicios.py"]  # Lista de arquivos a serem ignorados
+
     for root, dirs, files in os.walk(caminho):
-        total_arquivos += len(files)  # Soma os arquivos encontrados
+        for file in files:
+            # Conta apenas os arquivos com extensões válidas e que não estão na lista de ignorados
+            if file.endswith(extensoes_validas) and file not in ignorar_arquivos:
+                total_arquivos += 1
     return total_arquivos
 
 if __name__ == "__main__":
@@ -16,4 +22,3 @@ if __name__ == "__main__":
     else:
         total = contar_exercicios(caminho_diretorio)
         print(f"Total de exercícios no repositório: {total}")
-
