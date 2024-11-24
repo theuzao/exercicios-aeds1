@@ -39,8 +39,8 @@ Este repositório é voltado para estudantes de **Engenharia de Software** ou á
 
 1. Clone o repositório para sua máquina:
    ```bash
-   git clone https://github.com/theuzao/exercicios-c.git
-   cd exercicios-c
+   git clone https://github.com/theuzao/exercicios-aeds1.git
+   cd exercicios-aeds1
    ```
 
 2. Navegue até a pasta do tema desejado:
